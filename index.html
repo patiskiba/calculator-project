@@ -28,12 +28,12 @@
                 <div id="calculator">
                     <form>
                         <!-- Calc display -->
-                        <div class="display">
-                            <div class="displayTopRow displayRow">
-
+                        <div class="display displayBackgroundColor">
+                            <div class="displayTopRow displayRow displayBackgroundColor">
+                                <h5>55 + 5 =</h5>
                             </div>
-                            <div class="displayBottomRow displayRow">
-                                <input type="text" name="displayInput">
+                            <div class="displayBottomRow displayRow displayBackgroundColor">
+                                <input type="text" name="displayInput" id="displayInput" class="displayInput displayBackgroundColor">
                             </div>
                         </div>
                         <!-- Calc buttons container -->
@@ -70,7 +70,7 @@
                             <div class="buttonsRow">
                                 <input type="button" value="0">
                                 <input type="button" value=".">
-                                <input type="button" value="=">
+                                <input type="button" value="=" class="equal">
                                 
                             </div>
                         </div>

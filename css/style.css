@@ -1,13 +1,66 @@
 
 
 #calculator {
+    max-width: 397.16px;
     padding: 2rem;
-    border-radius: 1rem;
+    border-radius: .5rem;
     background-color: black;
 }
 
-.displayRow {
-    
-    background-color: blue;
+
+#calculator form input {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 1rem;
+    margin: .5rem;
+    border: 0;
+    outline: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
+.display {
+    display: flex;
+    
+    flex-direction: column;
+    border-radius: 1rem;
+    margin-bottom: 1.5rem;
+}
+.displayTopRow {
+    height: 2.5rem;
+    width: 100%;
+    text-align: right;
+    padding: 1rem;
+    border-radius: 1rem 1rem 0px 0px;
+}
+.displayTopRow h5 {
+    font-weight: 500 !important;
+}
+
+.displayBottomRow {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 0px 0px 1rem 1rem;
+}
+
+.displayInput {
+    width: 100% !important;
+    margin: 0px !important;
+    padding: 0px;
+    height: 4rem;
+    text-align: right;
+    font-size: 3rem !important;
+}
+.displayBackgroundColor {
+    background-color: rgb(129, 129, 129);
+}
+
+
+.equal {
+width: 9rem !important;
+}
+
+
+
+/* BREAKPOINTS */
