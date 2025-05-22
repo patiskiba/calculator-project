@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(109, 109, 187);
+    background-color: rgb(190, 192, 235);
 }
 
 #calculator {
@@ -7,6 +7,8 @@ body {
     padding: 2rem;
     border-radius: .5rem;
     background-color: rgb(7, 7, 70);
+    box-shadow: 12px 14px 12px rgba(11, 36, 55, 0.377);
+    
 }
 
 
@@ -19,6 +21,9 @@ body {
     outline: 0;
     font-size: 1.2rem;
     font-weight: 700;
+    background-color: rgba(240, 248, 255, 0);
+    color: white;
+    box-shadow: -6px -6px 12px rgba(105, 129, 247, 0.272), 5px 5px 10px rgba(0, 0, 0, 0.646);
 }
 
 .display {
@@ -53,14 +58,27 @@ body {
     height: 4rem;
     text-align: right;
     font-size: 3rem !important;
+    box-shadow: none !important;
+    color: rgb(7, 7, 70) !important;
 }
 .displayBackgroundColor {
-    background-color: rgb(180, 189, 239);
+    background-color: rgb(194, 201, 241);
 }
 
+.accentBackgroundColor {
+    background-color: rgb(58, 181, 175) !important;
+    
+}
+.accentFontColor {
+    color: rgb(58, 181, 175) !important;  
+}
+.displayAccentColor {
+    color: rgb(0, 96, 98) !important;  
+}
 
-.equal {
+#equal {
 width: 9rem !important;
+
 }
 
 

@@ -13,7 +13,7 @@
 
     <header role="banner" class="container-fluid">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12 displayAccentColor">
                 <h1 class="text-center">Calculator Project</h1>
                 <h6 class="text-center">By Pati Skiba @ MCA</h6>
             </div>
@@ -30,7 +30,7 @@
                         <!-- Calc display -->
                         <div class="display displayBackgroundColor">
                             <div class="displayTopRow displayRow displayBackgroundColor">
-                                <h5>55 + 5 =</h5>
+                                <h5 class="displayAccentColor">55 + 5 =</h5>
                             </div>
                             <div class="displayBottomRow displayRow displayBackgroundColor">
                                 <input type="text" name="displayInput" id="displayInput" class="displayInput displayBackgroundColor">
@@ -40,37 +40,37 @@
                         <div class="buttonsContainer">
                             <!-- Row 1 -->
                             <div class="buttonsRow">
-                                <input type="button" value="AC">
+                                <input type="button" value="AC" class="accentBackgroundColor">
                                 <input type="button" value="DEL">
                                 <input type="button" value="(-)">
-                                <input type="button" value="/">
+                                <input type="button" value="/" class="accentFontColor">
                             </div>
                             <!-- Row 2 -->
                             <div class="buttonsRow">
                                 <input type="button" value="7">
                                 <input type="button" value="8">
                                 <input type="button" value="9">
-                                <input type="button" value="x">
+                                <input type="button" value="x" class="accentFontColor">
                             </div>
                             <!-- Row 3 -->
                             <div class="buttonsRow">
                                 <input type="button" value="4">
                                 <input type="button" value="5">
                                 <input type="button" value="6">
-                                <input type="button" value="-">
+                                <input type="button" value="-" class="accentFontColor">
                             </div>
                             <!-- Row 4 -->
                             <div class="buttonsRow">
                                 <input type="button" value="1">
                                 <input type="button" value="2">
                                 <input type="button" value="3">
-                                <input type="button" value="+">
+                                <input type="button" value="+" class="accentFontColor">
                             </div>
                             <!-- Row 5 -->
                             <div class="buttonsRow">
                                 <input type="button" value="0">
                                 <input type="button" value=".">
-                                <input type="button" value="=" class="equal">
+                                <input type="button" value="=" id="equal" class="accentBackgroundColor">
                                 
                             </div>
                         </div>
