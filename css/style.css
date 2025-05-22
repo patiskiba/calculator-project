@@ -1,10 +1,12 @@
-
+body {
+    background-color: rgb(109, 109, 187);
+}
 
 #calculator {
     max-width: 397.16px;
     padding: 2rem;
     border-radius: .5rem;
-    background-color: black;
+    background-color: rgb(7, 7, 70);
 }
 
 
@@ -34,7 +36,7 @@
     border-radius: 1rem 1rem 0px 0px;
 }
 .displayTopRow h5 {
-    font-weight: 500 !important;
+    font-weight: 700 !important;
 }
 
 .displayBottomRow {
@@ -53,7 +55,7 @@
     font-size: 3rem !important;
 }
 .displayBackgroundColor {
-    background-color: rgb(129, 129, 129);
+    background-color: rgb(180, 189, 239);
 }
 
 
