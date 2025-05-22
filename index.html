@@ -10,14 +10,76 @@
     <title>Calculator Project</title>
 </head>
 <body>
-    <header role="banner">
+
+    <header role="banner" class="container-fluid">
         <div class="row">
             <div class="col-12">
-                <h1>Calculator Project</h1>
-                <h6>By Pati Skiba @ MCA</h6>
+                <h1 class="text-center">Calculator Project</h1>
+                <h6 class="text-center">By Pati Skiba @ MCA</h6>
             </div>
         </div>
     </header>
+
+    <main class="container-fluid">
+        <div class="row calcContainerRow">
+            <div class="col-12 calcContainerCol d-flex justify-content-center">
+
+                <!-- Calc container does not use bootstrap formatting -->
+                <div id="calculator">
+                    <form>
+                        <!-- Calc display -->
+                        <div class="display">
+                            <div class="displayTopRow displayRow">
+
+                            </div>
+                            <div class="displayBottomRow displayRow">
+                                <input type="text" name="displayInput">
+                            </div>
+                        </div>
+                        <!-- Calc buttons container -->
+                        <div class="buttonsContainer">
+                            <!-- Row 1 -->
+                            <div class="buttonsRow">
+                                <input type="button" value="AC">
+                                <input type="button" value="DEL">
+                                <input type="button" value="(-)">
+                                <input type="button" value="/">
+                            </div>
+                            <!-- Row 2 -->
+                            <div class="buttonsRow">
+                                <input type="button" value="7">
+                                <input type="button" value="8">
+                                <input type="button" value="9">
+                                <input type="button" value="x">
+                            </div>
+                            <!-- Row 3 -->
+                            <div class="buttonsRow">
+                                <input type="button" value="4">
+                                <input type="button" value="5">
+                                <input type="button" value="6">
+                                <input type="button" value="-">
+                            </div>
+                            <!-- Row 4 -->
+                            <div class="buttonsRow">
+                                <input type="button" value="1">
+                                <input type="button" value="2">
+                                <input type="button" value="3">
+                                <input type="button" value="+">
+                            </div>
+                            <!-- Row 5 -->
+                            <div class="buttonsRow">
+                                <input type="button" value="0">
+                                <input type="button" value=".">
+                                <input type="button" value="=">
+                                
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </main>
 </body>
 <script src="app.js"></script>
 </html>
