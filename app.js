@@ -4,5 +4,8 @@ let displayScreen = document.getElementById("displayInput");
 const buttons = document.querySelectorAll(".buttonsRow input");
 console.log(buttons);
 
-const clearButton = document.getElementById("ac");
-const deleteButton = document.getElementById("delete");
+for (let button of buttons) {
+    button.addEventListener("click", () => {
+        
+    })
+}
